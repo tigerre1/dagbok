@@ -1,16 +1,21 @@
 body{
   background:#fff;
+  box-sizing:border-box;
+}
+.container{
+  max-width:50rem;
+  margin:0 auto;
 }
 .wrapper{
   display:grid;
-  grid-template-areas: 'header header header'
-                       'image image image'
-                       'main main aside'
-                       'footer footer footer';
-  grid-template-rows:50px 100px 200px 10px;
-  grid-gap: 10px;
-  background-color: #2196F3;
-  padding: 10px;
+  grid-template-areas: 'header header header header'
+                       'image image image aside'
+                       'main main main aside'
+                       'footer footer footer footer';
+  grid-template-rows:13vh 30vh 45vh 10vh;
+  grid-gap: 0px;
+  background-color: ;
+  padding: 0px;
 
 }
 .header{
@@ -29,7 +34,8 @@ body{
   grid-area: footer;
 }
 .wrapper>section {
-  background-color: rgba(255, 255, 255, 0.8);
+  border:1px solid #ccc;
   text-align: center;
   padding:20px 0;
   font-size: 30px;
+}
