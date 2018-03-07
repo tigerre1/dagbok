@@ -1,6 +1,7 @@
 body{
   box-sizing:border-box;
   font-family: 'Merriweather', serif;
+  background:#ccc;
 }
 h1,h2,h3{
   font-family: 'Oswald',sans-serif;
@@ -13,6 +14,7 @@ h1{
 .container{
   max-width:50rem;
   margin:0 auto;
+  background:#fff;
 }
 .wrapper{
   display:grid;
@@ -34,12 +36,22 @@ h1{
 .color-header{
   height:50px;
   background:#618685;
+  padding-top: 27px;
+}
+.menu>a {
+  text-decoration: none;
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  color: #fff;
+  margin-right: 30px;
 }
 .image{
   grid-area: image;
 }
 .main{
   grid-area: main;
+  padding-left: 15px;
+  padding-right: 10px;
 
 }
 .aside{
