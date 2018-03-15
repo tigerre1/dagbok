@@ -1,0 +1,58 @@
+<div class="gallery">
+
+
+    <div class="single-img">
+      <h3 class="img-text">03 Mar 2018</h3>
+      <a href="https://picsum.photos/810/307"><img src="https://picsum.photos/810/307" alt=""></a>
+    </div>
+
+
+
+    <div class="single-img">
+      <h3 class="img-text">02 Mar 2018</h3>
+      <a href="https://picsum.photos/808/307"><img src="https://picsum.photos/808/307" alt=""></a>
+    </div>
+
+
+
+    <div class="single-img">
+      <h3 class="img-text">01 Mar 2018</h3>
+      <a href="https://picsum.photos/2000/2000"><img src="https://picsum.photos/2000/2000" alt=""></a>
+    </div>
+
+
+</div>
+
+
+<style>
+  .gallery{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(300px, auto ));
+    grid-gap:10px;
+
+  }
+
+  .single-img {
+    max-width: 100%;
+    height:auto;
+    position: relative;
+  }
+  img{
+    width:100%;
+    height:auto;
+    display:blog;
+  }
+  h3.img-text{
+    position: absolute;
+    top:-16px;
+    left:0px;
+    color:white;
+    background: black;
+    font-family: verdana;
+    font-weight: 400;
+    font-size: 16px;
+
+  }
+
+
+</style>

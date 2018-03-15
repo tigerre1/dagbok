@@ -1,1 +1,3 @@
 title: MyBlogg
+baseurl: ""
+url: "localhost:4000"
