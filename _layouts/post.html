@@ -11,7 +11,7 @@
     <p class="post-meta">{{ page.date | date_to_string }}</p>
     <section class="image">
       <div class="image-wrapper">
-        <img src="{{ page.image_path }}" alt="">
+        <img src="{{site.url}}/{{ page.image_path }}" alt="">
       </div>
     </section>
     <p class="post-content">{{ content }}</p>

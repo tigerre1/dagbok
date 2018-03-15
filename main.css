@@ -2,6 +2,7 @@ body{
   box-sizing:border-box;
   font-family: 'Merriweather', serif;
   background:#ccc;
+  margin:0;
 }
 a{
   text-decoration: none;
@@ -84,7 +85,7 @@ img{
 }
 .main-heading{
   color:#404040;
-  font-size:50px;
+  font-size:40px;
   text-transform: uppercase;
 }
 .blog-roll{
