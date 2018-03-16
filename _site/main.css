@@ -35,8 +35,6 @@ h1{
 .header{
   grid-area: header;
   text-align:center;
-
-
 }
 .color-header{
   height:50px;
@@ -84,7 +82,8 @@ img{
   display:block;
 }
 .main-heading{
-  color:#404040;
+  background: #F9D1C0;
+  color:#5d5d5d;
   font-size:40px;
   text-transform: uppercase;
 }
@@ -96,4 +95,11 @@ img{
   padding-left: 25px;
   padding-right: 15px;
   padding-top: 20px;
+}
+.post-content{
+  border-top:10px solid #EF8354;
+  margin-bottom:0;
+}
+.post-content::first-letter{
+  font-size: 200%;
 }
