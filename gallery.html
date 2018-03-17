@@ -1,0 +1,20 @@
+---
+title: Album
+navigation_weight: 3
+layout: default
+---
+
+
+<section class="image">
+    <div class="gallery">
+    {% for post in site.posts %}
+
+        <div class="single-img">
+          <h3 class="img-text">{{post.date | date_to_string}}</h3>
+          <a href="{{post.image_path}}"><img src="{{baseurl}}/{{ post.image_path}}" alt=""></a>
+        </div>
+
+    {% endfor %}
+    </div>
+</section>
+</div>

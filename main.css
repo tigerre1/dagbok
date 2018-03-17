@@ -48,6 +48,9 @@ h1{
   color: #fff;
   margin-right: 30px;
 }
+a.active {
+  color:orange;
+}
 .image{
   grid-area: image;
 }
@@ -105,4 +108,32 @@ img{
 }
 .post-content::first-letter{
   font-size: 200%;
+}
+.gallery{
+  display:grid;
+  grid-template-columns: repeat(auto-fit,minmax(300px, auto ));
+  grid-gap:10px;
+
+}
+
+.single-img {
+  max-width: 100%;
+  height:auto;
+  position: relative;
+}
+img{
+  width:100%;
+  height:auto;
+  display:block;
+}
+h3.img-text{
+  position: absolute;
+  top:0;
+  left:0;
+  color:white;
+  background: black;
+  font-family: verdana;
+  font-weight: 400;
+  font-size: 16px;
+
 }

@@ -2,17 +2,23 @@
   <div class="container">
     <div class="wrapper">
       <section class="header">
+        <h1 class="main-heading">Dagbok/Blogg 2018</h1>
         <div class="color-header">
           <nav class="menu">
 
-       {% for p in site.pages %}
+               {% assign navigation_pages = site.html_pages | sort: 'navigation_weight' %}
+               {% for p in navigation_pages %}
+                 {% if p.navigation_weight %}
 
-           <a href="{{ p.url }}">{{ p.title }}</a>
+                     <a href="{{ p.url }}" {% if p.url == page.url %}class="active"{% endif %}>
+                       {{ p.title }}
+                     </a>
 
-       {% endfor %}
+                 {% endif %}
+               {% endfor %}
 
           </nav>
         </div>
-        <h1 class="main-heading">Dagbok/Blogg 2018</h1>
+
 
       </section>
