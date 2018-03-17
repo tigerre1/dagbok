@@ -97,8 +97,11 @@ img{
   padding-top: 20px;
 }
 .post-content{
-  border-top:10px solid #EF8354;
+
   margin-bottom:0;
+}
+.post-heading{
+  border-top:10px solid orange;
 }
 .post-content::first-letter{
   font-size: 200%;
