@@ -1,0 +1,17 @@
+id: 8ef56990-a82d-4bec-add4-96197345df82
+deploy:
+  ignore: []
+  directory: .
+plugins:
+  - name: password-protect
+    options:
+      password: $SITE_PASSWORD
+      loginPage: login.html
+      maxFailures: 5
+      failureWindow: 600
+      lockoutDuration: 600
+      ignorePatterns:
+        - /css/*.css
+        - /js/*.js
+        - /img/*.jpg
+  - name: webpage
