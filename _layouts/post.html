@@ -26,7 +26,7 @@ layout: default
 <section class="aside">
   <h2 class="blog-roll">De senaste artiklarna;</h2> <br> {% for post in site.posts %}
   <h2 class="blog-roll">
-    <a href="{{baseurl}}/{{ page.url }}">{{ post.title }}</a>
+    <a href="{{baseurl}}/{{ post.url }}">{{ post.title }}</a>
     <hr>
   </h2> {% endfor %}
 </section>
