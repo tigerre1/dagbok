@@ -31,7 +31,7 @@ navigation_weight: 1
 <section class="aside">
   {% for post in site.posts %}
   <h2 class="blog-roll">
-          <a href="{{ post.url | prepend: site.basurl }}">{{ post.title }}</a>
+          <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2> {% endfor %}
 </section>
  
