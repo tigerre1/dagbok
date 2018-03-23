@@ -32,6 +32,7 @@ navigation_weight: 1
   {% for post in site.posts %}
   <h2 class="blog-roll">
           <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+    {{ post.url }}
         </h2> {% endfor %}
 </section>
  
