@@ -3,6 +3,7 @@ body{
   font-family: 'Merriweather', serif;
   background:#ccc;
   margin:0;
+  margin-top:10px;
 }
 a{
   text-decoration: none;
@@ -38,7 +39,7 @@ h1{
 }
 .color-header{
   height:50px;
-  background:#618685;
+  background:#000;
   padding-top: 27px;
 }
 .menu>a {
@@ -53,12 +54,13 @@ a.active {
 }
 .image{
   grid-area: image;
+  margin-bottom: 10px;
+
 }
 .main{
   grid-area: main;
   padding-left: 15px;
   padding-right: 10px;
-
 }
 .aside{
   grid-area: aside;
@@ -72,12 +74,12 @@ a.active {
   grid-area: footer;
   text-align:center;
   font-weight: bold;
-
 }
 
 .image-wrapper{
   max-width:100%;
   height:100%;
+  margin-top:-5px;
 }
 img{
   width:100%;
@@ -85,7 +87,7 @@ img{
   display:block;
 }
 .main-heading{
-  background: #F9D1C0;
+  background: #Ffa500;
   color:#5d5d5d;
   font-size:40px;
   font-family:'Special Elite';
