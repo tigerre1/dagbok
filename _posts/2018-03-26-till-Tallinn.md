@@ -1,7 +1,7 @@
 ---
 published: true
 layout: post
-image_path: assets/images/IMG_0024 (2).jpg
+image_path: assets/images/IMG_20180308_120529.jpg
 ---
 ## Måndag 26.3.2018
 
