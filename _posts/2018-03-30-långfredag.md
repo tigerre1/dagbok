@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Spelning i Forsby
+title: Långfredag
 image_path:
 ---
 Idag är det långfredag
