@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Start
+title: Dagbok
 navigation_weight: 1
 ---
 
@@ -11,7 +11,7 @@ navigation_weight: 1
   </div>
 </section>
 <section class="main">
-  {% for post in site.posts limit: 5 %}
+  {% for post in site.posts limit: 3 %}
 
   <article class="post">
 
@@ -19,8 +19,8 @@ navigation_weight: 1
             <a href="{{ post.url | prepend: site.baseurl }}">{{post.title}}</a>
     </h2>
     <p class="post-meta">{{ post.date | date_to_string }}</p>
-    <p class="post-content">{{post.content | truncate:200 }}
-      <a href="{{ post.url | prepend: site.baseurl }}">Läs mera...</a>
+    <p class="post-content">{{post.content}}
+      <!-- <p><a class="las-mera" href="{{ post.url | prepend: site.baseurl }}">Läs mera...</a></p> -->
     </p>
 
   </article>

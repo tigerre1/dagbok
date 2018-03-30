@@ -137,5 +137,10 @@ h3.img-text{
   font-family: verdana;
   font-weight: 400;
   font-size: 16px;
-
+}
+.las-mera{
+  color:blue;
+}
+.las-mera:hover {
+  color:orange;
 }
