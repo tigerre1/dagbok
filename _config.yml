@@ -1,7 +1,8 @@
-title: MyBlogg
+title: tigerDagbok
 #baseurl: "/canva-design"
 baseurl: ""
 url: "localhost:4000"
+gem: [jekyll-admin]
 
 #url: "https://tigerre1.github.io/canva-design"
 #>>>>>>> b08e1714c9ea0ce14a4d0765045306745e79b003
